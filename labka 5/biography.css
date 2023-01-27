@@ -1,0 +1,82 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+.screen{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+article{
+   font-size: 120%;
+   border: 1px solid;
+   background-color: #A2ADD0;
+}
+h1{
+   text-align: center;
+
+   font-size: 22px;
+   font-size: 140%;
+}
+.zmist{
+   font-size: 140%;
+   text-align: center;
+}
+.back{
+   font-style: italic;
+}
+a:link, a:visited  {
+   text-decoration: none;
+   background-color:  blue;
+   border: 2px solid   rgb(0, 0, 0);
+   color:black;
+   display: block;
+   width: 280px;
+   text-align: center;
+   margin-bottom: 1px;
+}
+a:hover{
+   background-color:magenta;
+   color:red;
+}
+a:active{
+   background-color: yellow;
+   color:rgb(18, 149, 99);
+}
+.bas, .ch, .sh, .ou, .un{
+   text-align: center;
+   font-weight: bold;
+   font-size: 120%;
+}
+.base{
+   background-color: goldenrod;
+   color: floralwhite;
+}
+.child{
+   background-color: yellowgreen;
+   color: black;
+}
+.school{
+   background-color: khaki;
+   color: midnightblue
+}
+.out{
+   background-color: royalblue;
+   color: red;
+}
+.univer{
+   background-color: yellow;
+   color: slateblue;
+}
+.up{
+   text-transform: uppercase;
+}
+.zmist{
+   font-weight: bold;
+}
+.univer, .out, .school, .child, .base{
+   font-weight: normal;
+}
